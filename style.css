@@ -1,0 +1,52 @@
+#app-container {
+    display:none;
+}
+
+
+
+#results {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.img-thumb {
+    max-width:100px;
+    padding:20px;
+    margin:5px;
+    white-space:normal;
+}
+
+.img-thumb:hover {
+    background-color:aliceblue;
+    cursor:pointer;
+}
+
+.svg-name {
+    font-size:7pt;
+    white-space:normal;
+}
+
+.img {
+    width:100%;
+}
+
+#problem {
+    color:red;
+}
+
+#konva-area {
+    width:300px;
+    height:calc(100vh - 15px);
+    /* background-color:red; */
+    margin-right:10px;
+}
+
+#canvas {
+    width:300px;
+
+    /* background-color: #e5e5f7; */
+    opacity: 0.8;
+    background-image:  linear-gradient(lightblue 2px, transparent 2px), linear-gradient(90deg, lightblue 2px, transparent 2px), linear-gradient(lightblue 1px, transparent 1px), linear-gradient(90deg, lightblue 1px, white 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
